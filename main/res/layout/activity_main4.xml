@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+  <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:stretchColumns="1"
+      android:gravity="center">
+
+      <TableRow>
+          <TextView
+              android:text="Name : "
+              android:textSize="20sp"
+              android:padding="3dip"
+              />
+          <TextView
+              android:id="@+id/txtview1"
+              android:gravity="center"
+              android:padding="3dip"/>
+      </TableRow>
+      <TableRow>
+          <TextView
+              android:text="Address : "
+              android:textSize="20sp"
+              android:padding="3dip"
+              />
+          <TextView
+              android:id="@+id/txtview2"
+              android:gravity="center"
+              android:padding="3dip"/>
+      </TableRow>
+      <TableRow>
+          <TextView
+              android:text="Age : "
+              android:textSize="20sp"
+              android:padding="3dip"
+              />
+          <TextView
+              android:id="@+id/txtview3"
+              android:gravity="center"
+              android:padding="3dip"/>
+      </TableRow>
+      <TableRow>
+          <TextView
+              android:text="Phone : "
+              android:textSize="20sp"
+              android:padding="3dip"
+              />
+          <TextView
+              android:id="@+id/txtview4"
+              android:gravity="center"
+              android:padding="3dip"/>
+      </TableRow>
+      <TableRow>
+          <TextView
+              android:text="Sex : "
+              android:textSize="20sp"
+              android:padding="3dip"
+              />
+          <TextView
+              android:id="@+id/txtview5"
+              android:gravity="center"
+              android:padding="3dip"/>
+      </TableRow>
+
+  </TableLayout>
+
+</RelativeLayout>
